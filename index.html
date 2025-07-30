@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Tic-tac-toe</title>
+</head>
+<body>
+    <main>
+        <div class="menu-section">
+            <p>TIC-TAC-TOE</p>
+            <form class="player-form" action="#">
+                <div class="player1">
+                    <label for="player1-name">
+                        <img src="./cross.svg" alt="cross">
+                        <p>Player One name:</p>
+                    </label>
+                    <input type="text" name="player1-name" id="player1-name" placeholder="Player One">
+                </div>
+                <div class="player2">
+                    <label for="player2-name">
+                        <img src="./circle.svg" alt="circle">
+                        <p>Player Two name:</p>
+                    </label>
+                    <input type="text" name="player2-name" id="player2-name" placeholder="Player Two">
+                </div>
+                <button class="start-button" type="submit">Start</button>
+            </form>
+            <div class="game-alerts">
+                <p>Player One starts as 'X'</p>
+                <p>Player Two starts as 'O'</p>
+            </div>
+        </div>
+        <div class="game-grid">
+            <div id="1" class="grid-square one">
+            </div>
+            <div id="2" class="grid-square two">
+            </div>
+            <div id="3" class="grid-square three">
+            </div>
+            <div id="4" class="grid-square four">
+            </div>
+            <div id="5" class="grid-square five">
+            </div>
+            <div id="6" class="grid-square six">
+            </div>
+            <div id="7" class="grid-square seven">
+            </div>
+            <div id="8" class="grid-square eight">
+            </div>
+            <div id="9" class="grid-square nine">
+            </div>
+            <div class="grid-line left-vertical"></div>
+            <div class="grid-line right-vertical"></div>
+            <div class="grid-line top-horizontal"></div>
+            <div class="grid-line bottom-horizontal"></div>
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/zemrwantstolearncoding" target="_blank">@zemrwantstolearncoding</a>
+    </footer>
+</body>
+</html>
